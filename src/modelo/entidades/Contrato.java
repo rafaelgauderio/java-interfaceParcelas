@@ -36,7 +36,6 @@ public class Contrato {
 		this.numero = numero;
 	}
 
-
 	public Date getDataContrato() {
 		return datacontrato;
 	}
@@ -76,7 +75,7 @@ public class Contrato {
 	public String toString() {
 		return "Número do contrato: "+numero+
 				"\nData da contratação: "+data.format(datacontrato)+
-				"\nValor Contratado: "+String.format("%.2f",valorcontratado);
+				"\nValor Contratado: "+String.format("R$ %.2f",valorcontratado);
 		
 	}
 	
